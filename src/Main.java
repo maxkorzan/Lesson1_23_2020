@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int x;
+//        int x;
 //
-//        //prompt user for int
+//       //prompt user for int
 //        System.out.println("Enter a number: ");
 //        x  = sc.nextInt();
 //        //SCANNER BUFFER - NEED THIS TO "EAT" UP THE USER'S LAST "ENTER" INPUT
@@ -23,8 +23,17 @@ public class Main {
         //RANDOM
         Random rand = new Random();
         int x = 1+ rand.nextInt(6);
+        System.out.println(x);
 
         //STRING METHODS
+        //substring
+        String word2 = "Professor";
+        System.out.println(word2.substring(6,9));
+        //length
+        System.out.println(word2.length());
+        //charat
+        System.out.println(word2.charAt(3));
+
 
 
 
